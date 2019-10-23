@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.nat-rub-bg {
+  background-color: white;
+  height: 100vh;
+}
+
+section.tables {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  background-color: white;
+}
+
+section.tables h1 {
+  margin-top: 20px;
+}
+
+section.tables p.doc-no {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-left: 15%;
+}
+
+section.tables div.sample {
+  margin: 10px auto;
+}
+
+section.tables table,
+section.tables th,
+section.tables td {
+  border-collapse: collapse;
+  font-size: 17px;
+}
+
+section.tables th,
+section.tables td {
+  border: 1px solid black;
+  padding: 5px;
+  text-align: center;
+  width: 100px;
+  height: 25px;
+}
+
+section.tables th span,
+section.tables td span {
+  width: 100%;
+  height: 100%;
+}
+
+section.tables th input,
+section.tables td input {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border: none;
+  outline: none;
+  font-size: 17px;
+}
+
+section.tables th p {
+  text-align: left;
+  font-weight: 100;
+}
+
+section.tables table tr td.perCent {
+  cursor: pointer;
+}
+
+section.tables table tr th.No-border {
+  border: none;
+}
+
+section.tables table tr td.warning {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */

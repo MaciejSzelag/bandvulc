@@ -1,0 +1,144 @@
+.nat-rub-bg {
+    background-color: white;
+    height: 100vh;
+}
+
+section.tables {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: white;
+
+    h1 {
+        margin-top: 20px;
+    }
+
+    p.doc-no {
+        align-self: flex-start;
+        margin-left: 15%;
+    }
+
+    div.sample {
+        margin: 10px auto;
+    }
+
+    table,
+    th,
+    td {
+        border-collapse: collapse;
+        font-size: 17px;
+    }
+
+    th,
+    td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        width: 100px;
+        height: 25px;
+
+        span {
+            width: 100%;
+            height: 100%;
+        }
+
+        input {
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            border: none;
+            outline: none;
+            font-size: 17px;
+        }
+    }
+
+    th {
+        p {
+            text-align: left;
+            font-weight: 100;
+        }
+    }
+
+    table tr td.perCent {
+        cursor: pointer;
+    }
+
+    table tr th.No-border {
+        border: none;
+    }
+
+    table tr td.warning {
+        color: red;
+    }
+}
+
+
+// @media(max-width:800px) {
+
+//     section.tables {
+//         width: 100%;
+//         margin-left: 2px;
+
+//         h1 {
+//             margin-top: 10px;
+//             font-size: 15px;
+//         }
+
+//         div.sample {
+//             margin: 10px auto;
+//         }
+
+//         table,
+//         th,
+//         td {
+
+//             font-size: 10px;
+
+//             p {
+//                 font-size: 8px;
+//             }
+//         }
+
+//         th,
+//         td {
+//             padding: 1px;
+//             width: 60px;
+
+
+//             input {
+//                 font-size: 10px;
+//             }
+//         }
+
+//         th {
+//             p {
+//                 text-align: left;
+//                 font-weight: 100;
+//             }
+//         }
+
+//         td.data {
+//             font-size: 8px;
+//             width: 100px;
+//         }
+
+//         p.doc-no {
+//             margin-left: 10px;
+//             font-size: 8px;
+//         }
+//     }
+// }
+
+
+
+//dla mixins
+
+// @mixin flex-box($justifyContent, $alignItems) {
+//     display: flex;
+//     justify-content: $justifyContent;
+//     align-items: $alignItems
+// }
